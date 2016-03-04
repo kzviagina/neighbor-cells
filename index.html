@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset="utf-8">
+        <style>
+            h2 {
+                text-align: center;
+            }
+            .wrap {
+                width: 300px;
+                margin: 50px auto;
+            }
+            .wrap span {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                padding: 10px;
+                margin: -1px 0 0 -1px;
+                border: 1px solid #666;
+                color: #000;
+                font: 20px/1 sans-serif;
+                text-align: center;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Click the cell to highlight neighbor cells with same value</h2>
+        <div id="wrap" class="wrap"></div>
+        <div class="wrap">
+            <button id="btn-reload">Reload</button>
+        </div>
+        <script type="text/javascript" src="test.js"></script>
+    </body>
+</html>
